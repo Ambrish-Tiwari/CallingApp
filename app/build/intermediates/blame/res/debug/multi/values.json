@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "D:\\DevelopmentTools\\android_wksp\\CallingApp\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 46,
+                    "endOffset": 97
+                },
+                "from": {
+                    "file": "D:\\DevelopmentTools\\android_wksp\\CallingApp\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 46,
+                        "endOffset": 98
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\DevelopmentTools\\android_wksp\\HelloMonkey\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "D:\\DevelopmentTools\\android_wksp\\HelloMonkey\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 48,
+                        "endOffset": 100
+                    }
+                }
+            }
+        ]
+    }
+]

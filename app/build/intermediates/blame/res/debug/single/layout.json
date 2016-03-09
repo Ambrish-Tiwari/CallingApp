@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\DevelopmentTools\\android_wksp\\CallingApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\DevelopmentTools\\android_wksp\\CallingApp\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\DevelopmentTools\\android_wksp\\HelloMonkey\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\DevelopmentTools\\android_wksp\\HelloMonkey\\app\\src\\main\\res\\layout\\main.xml"
+    }
+]

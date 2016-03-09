@@ -1,0 +1,79 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:3:3-42
+		INJECTED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:5:3-28
+		INJECTED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:4:3-26
+		INJECTED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:7:5-73
+	android:targetSdkVersion
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:7:41-70
+		INJECTED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:7:15-40
+		INJECTED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml
+		INJECTED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:9:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:10:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:13:22-73
+application
+ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:15:5-33:19
+	android:label
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:17:7-39
+	android:icon
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:16:7-43
+activity#com.twilio.example.callingapp.CallingActivity
+ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:18:9-26:20
+	android:screenOrientation
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:21:11-47
+	android:label
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:19:11-43
+	android:name
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:20:11-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:22:13-25:29
+action#android.intent.action.MAIN
+ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:24:27-74
+service#com.twilio.client.TwilioClientService
+ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:28:9-31:42
+	android:exported
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:30:11-35
+	android:stopWithTask
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:31:11-39
+	android:name
+		ADDED from D:\DevelopmentTools\android_wksp\CallingApp\app\src\main\AndroidManifest.xml:29:11-63

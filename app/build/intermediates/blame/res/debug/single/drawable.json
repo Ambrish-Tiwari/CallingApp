@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\DevelopmentTools\\android_wksp\\HelloMonkey\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dial.png",
+        "source": "D:\\DevelopmentTools\\android_wksp\\HelloMonkey\\app\\src\\main\\res\\drawable\\dial.png"
+    },
+    {
+        "merged": "D:\\DevelopmentTools\\android_wksp\\CallingApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hangup.png",
+        "source": "D:\\DevelopmentTools\\android_wksp\\CallingApp\\app\\src\\main\\res\\drawable\\hangup.png"
+    },
+    {
+        "merged": "D:\\DevelopmentTools\\android_wksp\\CallingApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "D:\\DevelopmentTools\\android_wksp\\CallingApp\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\DevelopmentTools\\android_wksp\\HelloMonkey\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hangup.png",
+        "source": "D:\\DevelopmentTools\\android_wksp\\HelloMonkey\\app\\src\\main\\res\\drawable\\hangup.png"
+    },
+    {
+        "merged": "D:\\DevelopmentTools\\android_wksp\\CallingApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dial.png",
+        "source": "D:\\DevelopmentTools\\android_wksp\\CallingApp\\app\\src\\main\\res\\drawable\\dial.png"
+    },
+    {
+        "merged": "D:\\DevelopmentTools\\android_wksp\\HelloMonkey\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher.png",
+        "source": "D:\\DevelopmentTools\\android_wksp\\HelloMonkey\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    }
+]
