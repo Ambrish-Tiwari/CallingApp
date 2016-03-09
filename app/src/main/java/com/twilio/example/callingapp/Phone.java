@@ -38,21 +38,22 @@ public class Phone implements Twilio.InitListener,DeviceListener,ConnectionListe
 
     public void connect(String phoneNumber )
     {
+        Log.d(TAG + "Phone Number ", phoneNumber);
         Map<String, String> parameters = new HashMap<String, String>();
-         //parameters.put("From", "+18563515180");
-         parameters.put("To", "+14844859149");
-        connection = device.connect(parameters, null /* ConnectionListener */);
+         //parameters.put("From", Constants.FROM_NUMBER);
+         parameters.put("To", Constants.TO_NUMBER);
+        //connection = device.connect(parameters, null /* ConnectionListener */);
         if (connection == null){
-            //Log.v(TAG,"Establishing connection....");
-            Log.w(TAG, "Failed to create new connection");
-            //connection = device.connect(parameters, null /* ConnectionListener */);
-         }/*else{
+            Log.v(TAG,"Establishing connection....");
+            //Log.w(TAG, "Failed to create new connection");
+            connection = device.connect(parameters, null /* ConnectionListener */);
+         }else{
             Log.w(TAG, "Already Connected.");
             Log.v(TAG, "Disconnecting...");
             connection.disconnect();
             connection = null;
             Log.v(TAG,"Connection Disconnected.");
-        }*/
+        }
     }
 
     public void disconnect()
@@ -133,11 +134,11 @@ public class Phone implements Twilio.InitListener,DeviceListener,ConnectionListe
     }*/
 
     private class RetrieveCapabilityToken extends AsyncTask<String, Void, String>{
-        private final String CAPABILITY_TOKEN_URL = "http://callingapp.ignatiuz.com/Home/AndroidCapToken";
+
 		@Override
 		protected String doInBackground(String... params) {
 			try{ 
-				String capabilityToken = HttpHelper.httpGet(CAPABILITY_TOKEN_URL);
+				String capabilityToken = HttpHelper.httpGet(Constants.CAPABILITY_TOKEN_URL);
                 Log.d(TAG + " capabilityToken: ",capabilityToken);
 				return capabilityToken;
 			} catch( Exception e ){

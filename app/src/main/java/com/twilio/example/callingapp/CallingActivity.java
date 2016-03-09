@@ -44,7 +44,6 @@ public class CallingActivity extends Activity implements View.OnClickListener
     @Override
     public void onClick(View view) {
         if (view.getId() == R.id.dialButton) {
-            Log.d(TAG, numberField.getText().toString());
             phone.connect(numberField.getText().toString());
         } else if (view.getId() == R.id.hangupButton) {
             phone.disconnect();
